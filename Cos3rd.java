@@ -1,7 +1,7 @@
 class Cos3rd extends ConsoleProgram {
 
   /**
-  * Description
+  * Ty
   * @author:
   */
   
