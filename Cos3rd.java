@@ -20,7 +20,7 @@ class Cos3rd extends ConsoleProgram {
 
     // Calaculate 
     dblAngle = Math.toRadians(dblAngle);
-    dblSide3 = Math.sqrt((dblSide1 * dblSide1) + (dblSide1 * dblSide2) - 2 * dblSide1 * dblSide2 * Math.cos(dblAngle));
+    dblSide3 = Math.sqrt((dblSide1 * dblSide1) + (dblSide2 * dblSide2) - (2 * dblSide1 * dblSide2 * Math.cos(dblAngle)));
    
     // Output
     System.out.println("The length of the thrid side of the triagle is " + dblSide3);
