@@ -1,27 +1,24 @@
 class FtoC extends ConsoleProgram {
 
   /**
-  * This program uses the Math.Sin() function to calculate the area of a triangle, given two sides and the contained angle.
+  * This code lets the user enter a degree measure in Fahrenheit, and that prints the result in Celsius degree measure
   * @author: A. Emmanuel-Singh
   */
   
   public void run() {
     
     // Declare Variables
-    int intA;
-    int intB;
+    double dblF;
     double dblC;
-    double dblTotalArea;
 
     // Get values 
-    intA = readInt("What is the length of the first side of the triangle? ");
-    intB = readInt("What is the length of the second side of the triangle? ");
-    dblC = readInt("What is the angle of the triangle? ");
+    dblF = readDouble("What is the temperature in Fahrenheit? ");
 
     // Calculations 
-    dblTotalArea = (intA * intB * Math.sin(dblC) / 2);
+    dblC = ((5/9 * dblF) - ((5/9) * 32));
 
     // Output
-    System.out.println("The area is " + dblTotalArea);
+    System.out.println("The temperature in Celsius is " + dblC);
+
   }
 }
