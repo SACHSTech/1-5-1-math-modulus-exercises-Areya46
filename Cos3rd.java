@@ -8,13 +8,13 @@ class Cos3rd extends ConsoleProgram {
   public void run() {
     
     // Declare Variable 
-    double sblSide1;
+    double dblSide1;
     double dblSide2;
     double dblAngle;
     double dblSide3;
 
     // Get value 
-    double dblSide1 = readDouble("Input the lenth of the the first side of the triangle: ");
+    dblSide1 = readDouble("Input the lenth of the the first side of the triangle: ");
     dblSide2 = readDouble("Input the length of the second side of the triangle: ");
     dblAngle = readDouble("Enter the degree of the angle in degrees: ");
 
