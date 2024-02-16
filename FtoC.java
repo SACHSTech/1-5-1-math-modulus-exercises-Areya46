@@ -15,7 +15,7 @@ class FtoC extends ConsoleProgram {
     dblF = readDouble("What is the temperature in Fahrenheit? ");
 
     // Calculations 
-    dblC = ((5/9 * dblF) - ((5/9) * 32));
+    dblC = ((dblF - 32) * 5 / 9);
 
     // Output
     System.out.println("The temperature in Celsius is " + dblC);
