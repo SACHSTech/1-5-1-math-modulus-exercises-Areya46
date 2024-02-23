@@ -2,7 +2,7 @@ class FtoC extends ConsoleProgram {
 
   /**
   * This code lets the user enter a degree measure in Fahrenheit, and that prints the result in Celsius degree measure
-  * @author: A. Emmanuel-Singh
+  * @author: A. Emmanuel-Singh 
   */
   
   public void run() {

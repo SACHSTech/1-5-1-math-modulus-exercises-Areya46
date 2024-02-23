@@ -18,10 +18,10 @@ class AreaSin extends ConsoleProgram {
     intB = readInt("What is the length of the second side of the triangle? ");
     dblC = readInt("What is the angle of the triangle? ");
 
-    // Calculations 
+    // Compute Calculations 
     dblTotalArea = (intA * intB * Math.sin(dblC) / 2);
 
     // Output
-    System.out.println("The area is " + dblTotalArea);
+    System.out.println("The area of the triangle is " + dblTotalArea);
   }
 }

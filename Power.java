@@ -8,19 +8,19 @@ class Power extends ConsoleProgram {
   public void run() {
     
     // Declare Variables
-    double dblA;
-    double dblB;
+    double dblBase;
+    double dblExponentt;
     double dblFinalNumber;
 
-    // Input from Users
-    dblA = readInt("Enter the base of the exponent: ");
-    dblB = readInt("Enter the exponent: ");
+    // Input from users
+    dblBase = readInt("Enter the base of the exponent: ");
+    dblExponentt = readInt("Enter the exponent: ");
 
-    // Calulations 
-    dblFinalNumber = Math.pow(dblA, dblB);
+    // Calculate the Final Number 
+    dblFinalNumber = Math.pow(dblBase, dblExponentt);
 
-    // Output
-    System.out.println(dblA + " to the power of " + dblB + " is " + dblFinalNumber);
+    // Output to user
+    System.out.println(dblBase + " to the power of " + dblExponentt + " is " + dblFinalNumber);
     
   }
 }

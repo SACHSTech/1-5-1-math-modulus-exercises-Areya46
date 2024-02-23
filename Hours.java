@@ -15,11 +15,11 @@ class Hours extends ConsoleProgram {
     // Input form users
     intHours = readInt("Enter the number of hours you would like to convert to days: ");
 
-    // Calculations 
+    // Calculate the Number of Days and hours 
     intDays = (intHours / 24);
     intMod = (intHours % 24);
 
-    // Output
+    // Output to user
     System.out.println( intHours + " hours is " + intDays + " and " + intMod + " hours."); 
 
   }
